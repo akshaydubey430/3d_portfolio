@@ -25,8 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
+import blog from "./blog.png"
+import grocery from "./grocery.png"
+import shirt from "./shirt.png";
+import blockchain from "./backend.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -35,6 +37,9 @@ export {
   backend,
   creator,
   mobile,
+  blog,
+  grocery,
+  blockchain,
   web,
   github,
   menu,
@@ -56,7 +61,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  shirt,
   jobit,
   tripguide,
 };

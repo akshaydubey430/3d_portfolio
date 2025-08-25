@@ -9,20 +9,23 @@ import {
     css,
     reactjs,
     redux,
+    blog,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
+    grocery,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
+    blockchain,
     jobit,
     tripguide,
     threejs,
+    shirt,
   } from "../assets";
   
   export const navLinks = [
@@ -99,6 +102,10 @@ import {
       name: "node.js",
       icon: nodejs,
     },
+    {
+      name: "blockchain",
+      icon: blockchain,
+    },
     
   ];
   //delete this also
@@ -109,44 +116,21 @@ import {
   //i have to delete this testi....
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+   
   ];
   //and write my own projectc rather than this
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D T-Shirt Designing",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I developed a 3D T-shirt designing app using React and Three.js, enabling users to customize colors, upload images, and generate logos through an integrated AI image generator for a seamless online experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Threejs",
           color: "green-text-gradient",
         },
         {
@@ -154,51 +138,48 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: shirt,
+     
     },
     {
-      name: "Job IT",
+      name: "Code Blogging website ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "I developed a code blogging website where developers can share tutorials, snippets, and technical articles. The platform supports syntax highlighting, user interaction through comments, and provides a space for coders to engage in knowledge sharing.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "flask",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: blog ,
+     
     },
     {
-      name: "Trip Guide",
+      name: "Grocery4U ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I developed the GROCERY4U app using Kotlin, offering users a seamless grocery shopping experience with easy navigation, and a user-friendly interface. The app streamlines grocery management with secure and efficient features.",
       tags: [
         {
-          name: "nextjs",
+          name: "Kotlin",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "User-Interface",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: grocery ,
+     
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
